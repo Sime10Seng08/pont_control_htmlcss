@@ -1,0 +1,230 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+   font-family: 'Roboto', sans-serif;
+    align-items: center;
+    min-height: 100vh;
+
+}
+header{
+    height: 10vh;
+    width: 10vh;
+    background-size: cover;
+}
+.navbar{
+    position: absolute;/*permet au dessus de la backgroune*/
+    padding:  50 ;
+    display: flex;/*aligner les texte*/
+    justify-content: space-between;
+    width: 100%;/*permet d amaner les elment vers le cote gauche*/
+    box-sizing: border-box;
+    background-image: url(image/image\ fond.jpg);
+    align-items: center;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+     transition: background-color 0.3s ease; 
+}
+.navbar h1{
+    color: white;
+    font-size: 2m;/*agrandi la taille du titre */
+    font-weight: bold;
+}
+
+/*mettre les li en ligne*/
+.navbar .nave-links ul {
+    display: flex;
+
+}
+/* .navbar .nave-links{
+    display: flex;
+    align-items: center;
+} */
+.navbar .nave-links ul li { 
+    margin: 25px;
+}
+
+.navbar .nave-links ul li a:hover{
+    background-color: #575757;
+    /* font-weight: 600; */
+
+}
+/* @media screen and (max-width:900px){
+    .nave-links{
+        display: none;
+
+    }
+} */
+ img {
+    max-width: 320px;
+ }
+ section{
+    display: flex;
+ }
+ .test{
+  
+    margin: 20px 0;
+    width: 70%;
+    padding:  50 ;
+    display: flex;/*aligner les texte*/
+    justify-content: space-between;
+    width: 100%;/*permet d amaner les elment vers le cote gauche*/
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #575757;
+ }
+ .tra{
+    margin: 20px auto;
+    width: 70%;
+    padding:  50 ;
+    display: flex;/*aligner les texte*/
+    justify-content: space-between;
+    width: 100%;/*permet d amaner les elment vers le cote gauche*/
+    box-sizing: border-box;
+    align-items: center;
+    background-color: beige;
+    
+ }
+ .tra p{
+   align-items: center;
+   width: 65%;
+ }
+
+.Cve{
+    margin: 80px auto;
+    width: 70%;
+    padding:  50 ;
+    display: flex;/*aligner les texte*/
+    justify-content: space-between;
+    width: 80%;/*permet d amaner les elment vers le cote gauche*/
+    box-sizing: border-box;
+    align-items: center;
+    background-color: rgb(175, 170, 162);
+    
+ }
+
+ .ct{
+   margin: 90px auto;
+    width: 70%;
+    padding:  50 ;
+    display: flex;/*aligner les texte*/
+    justify-content: space-between;
+    width: 80%;/*permet d amaner les elment vers le cote gauche*/
+    box-sizing: border-box;
+    align-items: center;
+    
+ }
+
+
+
+
+
+ /* bas de page foooter */
+
+ footer{
+    background:#575757 ;
+    padding: 50px;
+
+ }
+ .container{
+    width:1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+ }
+ .footer-content{
+    width: 33.3%;
+ }
+ h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+
+ }
+
+ .footer-content{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+ }
+
+ .footer-content ul{
+    text-align: center;
+
+
+ }
+
+ .liste{
+    padding:0;
+ }
+ .liste li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+ }
+
+ .liste li::before{
+    content:'';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition-duration: .5s;
+ }
+
+ .liste li:hover::before{
+    width: 70px;
+ }
+
+ .social-icons{
+    text-align: center;
+    padding: O;
+ }
+ .social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: O;
+ }
+ .social-icons i{
+    color:white;
+    font-size: 25px;
+
+ }
+ a{
+    text-decoration: none;
+ }
+
+ a:hover{
+    color: #f18930;
+ }
+
+ .social-icons i:hover{
+    color: #f18930;
+ }
+
+ .fot{
+    background: wheat;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+ }
+ .fot p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+ }
